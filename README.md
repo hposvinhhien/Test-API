@@ -7,8 +7,9 @@
 # Source Document
 - Source chạy Framework NET 6.0 (Yêu cầu Visual Studio 2022)
 - Authorize dùng JWT
-
 - Cấu trúc source có 3 phần
+
+  
 ![image](https://github.com/hposvinhhien/Test-API/assets/111078757/f9dc9315-16ec-47c0-a10d-66c55b41c891)
 
 .Core là phần để chứa các function xử lý.

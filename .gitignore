@@ -1,0 +1,9 @@
+
+*.dll
+*.targets
+*.props
+*.cache
+*.pdb
+*/obj/*
+*/bin/*
+.vs/*

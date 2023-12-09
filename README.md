@@ -36,13 +36,13 @@ DB)
 
 các bảng chính:
 - Client
-  CUS_CUSTOMER
+  * CUS_CUSTOMER
 - Setting
-  GlobPara
-  RDPara
+  * GlobPara
+  * RDPara
 - Sale
-  SPOS_APPOINTMENT
-  RDTmpTrn
-  RDAppointmentDetails
+  * SPOS_APPOINTMENT
+  * RDTmpTrn
+  * RDAppointmentDetails
 - Tech
-  EMP_EMPLOYEE
+  * EMP_EMPLOYEE

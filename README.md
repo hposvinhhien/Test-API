@@ -16,6 +16,8 @@
   * Service: Lớp liên kết trực tiếp với database, chỉ được gọi tới database (từ đây sẽ gọi là DB) thông qua lớp này, và lớp này chỉ làm nhiệm vụ gọi xuống database để lấy kết quả.
   * Event: Đối với các trường hợp cần xử lý logic sau khi lấy kết quả từ DB sẽ được xử lý ở lớp Event.
   * Extension: các Function xử lý dùng chung không liên quan tới DB
+
+    
 ==> Thứ tự gọi chuẩn sẽ là API => Event => Service (tuy nhiên đối với các function đơn giản không cần xử lý nhiều thì có thể gọi API => Service)
     
 .Model là để chứa các class khai báo.

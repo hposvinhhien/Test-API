@@ -15,10 +15,9 @@
 .Core là phần để chứa các function xử lý.
   * Service: Lớp liên kết trực tiếp với database, chỉ được gọi tới database (từ đây sẽ gọi là DB) thông qua lớp này, và lớp này chỉ làm nhiệm vụ gọi xuống database để lấy kết quả.
   * Event: Đối với các trường hợp cần xử lý logic sau khi lấy kết quả từ DB sẽ được xử lý ở lớp Event.
-  * Extension: các Function xử lý dùng chung không liên quan tới DB
+  * Extension: các static Function xử lý không liên quan tới DB hoặc các service chạy theo kiểu singleton.
 
-    
-==> Thứ tự gọi chuẩn sẽ là API => Event => Service (tuy nhiên đối với các function đơn giản không cần xử lý nhiều thì có thể gọi API => Service)
+==> Thứ tự gọi sẽ là API => Event => Service
     
 .Model là để chứa các class khai báo.
   * Auth: là model của Authorize, thường thì sẽ chia làm nhiều role (Admin, User, Tech, e.t.c...)
@@ -29,9 +28,7 @@
 DB)
   * ViewModel: Model kết quả trả về của API.
     
-.API là để run source
-  * appsettings.json: là nơi setup chung cho hệ thống (đặt các trường biến mặc định, setup connectionstring trong DB)
-  * Program.cs: lớp khai báo các thành phần và quy tắc chạy của source. JWT và Scope Interfacce sẽ khai báo ở đây.
+.API là lớp khởi tạo để người dùng tương tác
   * Controller: Code chính
 
 # Database Document

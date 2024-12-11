@@ -1,8 +1,7 @@
 # Mô tả hệ thống
-- đây là source của các hệ thống quản lý POS (Point Of Sale)
-- khách hàng chính hiện tại là các hệ thống tiệm Nails bên Mỹ
-- ngoài ra còn hướng tới khách hàng là các chuỗi bán lẽ và nhà hàng, khách sạn
-- có thể tham khảo quy trình từ các program như "mango mint", "Fresha", "LLD Tech"
+- đây là source backend hệ thống POS (Point Of Sale)
+- hướng tới khách hàng là các chuỗi bán lẽ và nhà hàng, khách sạn
+- tham khảo quy trình từ các program như "mango mint", "Fresha", "LLD Tech"
 
 # Source Document
 - Source chạy Framework NET 6.0 (Yêu cầu Visual Studio 2022)
